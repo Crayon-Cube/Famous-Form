@@ -6,9 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Famous Form</title>
-    <script src="index.js" ></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
-    
+    <div class="sidebar">
+        
+    </div >
+    <div class="main">
+        <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia officia consequatur harum, ratione nam. Id molestias quo in ipsa, illum, quibusdam nihil dolorum laboriosam et quis explicabo, expedita delectus?
+        </div>
+        <form id="my-form">
+            <legend>Lets go !</legend>
+           <div class="name">
+                <div class="field">
+                    <label for="First Name"  >First Name :</label>
+                    <input required type="text" id="first-name">
+                    <div class="error" id="first-name-error">
+                        <!-- asdasdad -->
+                    </div>
+                </div>
+                <div class="field">
+
+               <label for="Last Name" >Last Name :</label>  
+               <input required type="text" id="last-name">
+                    <div class="error" id = "last-name-error">
+                            <!-- sdasdasd -->
+                    </div>
+                </div>
+            </div>
+           
+           <div class="contact">
+                <div class="field">
+
+                    <label for="email" >Email :</label>
+                    <input required type="email" alt="example@email.com" id="email">
+                     <div class="error" id="email-error">
+                     <!-- sdasdasd -->
+                        </div>
+                </div>
+                <div class="field">
+
+                    <label for="Phone No" >Phone No :</label>
+                    <input required type="tel" id="phone" >
+                    <div class="error" id="phone-error">
+                        <!-- sdasdasd -->
+                    </div>
+                </div>
+            </div>
+           
+            
+            <div class="password">
+                <div class="field">
+
+                    <label for="password" >password :</label>
+                   <input required type="password" alt="password" id="password" >
+                   <div class="error" id="password-error">
+                    <!-- asdfsdf -->
+                   </div>
+                </div>
+                <div class="field">
+
+                    <label for="Confirm password" >Confirm password :</label>
+                    <input required type="password" alt="confirm password" id="confirm-pass">
+                    <div class="error" id="confirm-pass-error"></div>
+                </div>
+           
+            </div>
+            <button form="my-form" type="submit">Submit</button>
+        </form id="my-form">
+    </div>
 </body>
 </html>

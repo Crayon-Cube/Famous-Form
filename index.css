@@ -1,0 +1,79 @@
+
+
+body{
+    display: flex;
+    gap:10px;
+    background-color: rgb(123, 143, 143);
+    border: 17px dashed rgba(14, 251, 132, 0.76);
+    /* flex-direction: column; */
+
+}
+
+.sidebar{
+    flex:1;
+    height:95vh;
+    /* width: 800px; */
+    background-image: url("./Leaves.jpg");
+    background-size: cover;
+
+}
+
+.main{
+    flex:2.5;
+    /* height: 100vh; */
+        margin-top: auto;
+        margin-bottom: auto;
+}
+
+.text{
+    font-weight: 700;
+    font-size: 27px;
+    color: rgba(30, 225, 218, 0.799);
+    
+    margin-bottom: 50px;
+    /* max-width: 700px; */
+}
+
+legend{
+    font-size: 40px;
+    font-weight: 900;
+    /* margin-top: 90px; */
+}
+
+form{
+    /* border: none; */
+    /* gap: 20px; */
+    /* height: 1rem; */
+    display: flex;
+    max-width: fit-content;
+    justify-content: center;
+    flex-direction: column;
+    gap:50px
+}
+
+label{
+    font-size: large;
+}
+
+form>button{
+    background-color: goldenrod;
+    max-width: fit-content;
+    font-size: large;
+    border: 03px dotted blue;
+
+}
+
+form>div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+    /* background-color: blue; */
+}
+[class *= "error"]{
+   color: rgb(26, 205, 245);
+   font-style: italic;
+   font-weight: 100;
+   max-width: 20em;
+}

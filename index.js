@@ -48,7 +48,7 @@ phoneInput.addEventListener("input", () => {
 passwordInput.addEventListener("input", () => {
     var pattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
     // passwordInput.value.length === 10 && digitPattern.test(passwordInput.value)
-        pattern.test(password)
+        pattern.test(password.value)
       ? (passwordError.innerHTML = "thank you")
       : (passwordError.innerHTML = "password should have atleast 1 lowercase , 1 uppercase and 1 digit and must have more than 8 characters");
   });
